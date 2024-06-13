@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+button {
+    background-color: #25d366;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #1ebe5a;
+}
+.ov-btn-grow-ellips {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    background: hsl(0, 0%, 100%); 
+    color: #000000; 
+    border: 2px solid #4741d7; 
+    padding: 16px 20px;
+    border-radius: 50px; 
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .ov-btn-grow-ellips:hover {
+    color: #000000;
+  }
+  .ov-btn-grow-ellips::after {
+    content: "";
+    background: #06acee; 
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    border-radius: 50%;
+    left: -50%;
+    right: -50%;
+    top: -150%;
+    bottom: -150%;
+    transform: scale(0, 0);
+    transition: all 0.4s ease;
+  }
+  .ov-btn-grow-ellips:hover::after {
+    transition: all 0.6s ease-out;
+    transform: scale(1, 1);
+  }
+  .color{
+    background-color: #1ebe5a;
+  }
+  .cajatilin{
+    border: 3px solid black;
+    margin-top: 60px;
+    width: 600px;
+    height: 600px;
+  }
+  /*  */
+  .Botonregresar {
+    margin-top: 900px;
+    margin-left: -590px;
+    background-color: #25d366;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.Botonregresar:hover {
+    background-color: #1ebe5a;
+}
+.Botonregresar {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    background: hsl(0, 0%, 100%); 
+    color: #000000; 
+    border: 2px solid #4741d7; 
+    padding: 16px 20px;
+    border-radius: 50px; 
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .Botonregresar:hover {
+    color: #000000;
+  }
+  .Botonregresar::after {
+    content: "";
+    background: #06acee; 
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    border-radius: 50%;
+    left: -50%;
+    right: -50%;
+    top: -150%;
+    bottom: -150%;
+    transform: scale(0, 0);
+    transition: all 0.4s ease;
+  }
+  .Botonregresar:hover::after {
+    transition: all 0.6s ease-out;
+    transform: scale(1, 1);
+  }
+  .video{
+    width: 600px;
+    height: 600px;
+  }
+  .fondocucaracha{
+    background: linear-gradient(blue, pink);
+  }

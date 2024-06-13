@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equivalencia de Unidades</title>
+    <link rel="stylesheet" href="../estilos/Estilos.css">
+</head>
+<body class="foto">
+    <center>
+        <br>
+        <h1 class="tituloe">Equivalencia de Unidades :</h1>
+    </center>
+    <div class="metrosacm">
+        <h1>Metros a Centimetros :</h1>
+        <input class="n1" type="number" id="n1"><br><br>
+        <a class="sabritas" onclick="conversion()" >Convertir</a><br><br>
+        <h3>Su conversion es :</h3>
+        <input class="n1" type="text" id="conversion">
+        <script>
+            function conversion()
+            {
+                var num1 = document.getElementById('n1').value;
+                var num3_resultado = num1 *100;
+                document.getElementById('conversion').value = num3_resultado;
+            }
+        </script> 
+    </div>
+<!-- Litros a Mililitros -->
+    <div class="metrosacm">
+        <h1>Litros a Mililitros :</h1>
+        <input class="n1" type="number" id="n2"><br><br>
+        <a class="sabritas" onclick="conversion2()" >Convertir</a><br><br>
+        <h3>Su conversion es :</h3>
+        <input class="n1" type="text" id="conversion2">
+        <script>
+            function conversion2()
+            {
+                var num1 = document.getElementById('n2').value;
+                var num3_resultado = num1 *1000;
+                document.getElementById('conversion2').value = num3_resultado;
+            }
+        </script> 
+    </div>
+<!-- Yardas a Centimetros -->
+    <div class="cutino">
+        <h1>Yardaz a Centimetros :</h1>
+        <input class="n1" type="number" id="n3"><br><br>
+        <a class="sabritas" onclick="conversion3()" >Convertir</a><br><br>
+        <h3>Su conversion es :</h3>
+        <input class="n1" type="text" id="conversion3">
+        <script>
+            function conversion3()
+            {
+                var num1 = document.getElementById('n3').value;
+                var num3_resultado = num1 *91.4;
+                document.getElementById('conversion3').value = num3_resultado;
+            }
+        </script> 
+    </div>
+<!-- Kilometros a Decimetros -->
+    <div class="cuty">
+        <h1>Kilometros a Decimetros :</h1>
+        <input class="n1" type="number" id="n4"><br><br>
+        <a class="sabritas" onclick="conversion4()" >Convertir</a><br><br>
+        <h3>Su conversion es :</h3>
+        <input class="n1" type="text" id="conversion4">
+        <script>
+            function conversion4()
+            {
+                var num1 = document.getElementById('n4').value;
+                var num3_resultado = num1 *10000;
+                document.getElementById('conversion4').value = num3_resultado;
+            }
+        </script>
+    </div>
+    <center><a href="../Paginas/Programasmatematicos.html" class="ov-btn-grow-ellips">Regresar</a></center>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="../estilos/estilosos.css">
+</head>
+<body class="color">
+    <div class="form-container">
+        <form id="contactForm">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="rating">Calificación (1-10):</label>
+            <input type="number" id="rating" name="rating" min="1" max="10" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" maxlength="100" required></textarea>
+
+            <button type="button" onclick="sendToWhatsApp()">Enviar</button>
+        </form>
+    </div>
+    <center><a href="../Paginas/Index.html" class="ov-btn-grow-ellips">Regresar</a></center>
+    <script src="../estilos/contacto.js"></script>
+</body>
+</html>

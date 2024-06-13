@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grados a Radianes</title>
+    <link rel="stylesheet" href="../estilos/Estilos.css">
+</head>
+<body class="fondo">
+    <center>
+        <br><br>
+        <h1 class="tituloe">Conversion de Unidades (Grados a Radianes)</h1>
+        <br><br><br>
+        <input class="n1" type="number" id="n1"><br><br><br>
+        <a class="Mapache" onclick="conversion()" >Convertir </a>
+        <h3 class="n1" >Su conversion es :</h3>
+        <input class="n1" type="text" id="conversion">
+        <script>
+            function conversion()
+            {
+                var num1 = document.getElementById('n1').value;
+                var num3_resultado = num1 * 3.14 / 180;
+                document.getElementById('conversion').value = num3_resultado;
+            }
+        </script> 
+        <br><br>
+        <a href="../Paginas/Programasmatematicos.html" class="ov-btn-grow-ellips">Regresar</a>
+    </center>
+</body>
+</html>
